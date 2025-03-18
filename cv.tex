@@ -1,0 +1,137 @@
+\documentclass[12pt]{article}
+\usepackage{geometry}
+\usepackage{nopageno}
+\usepackage{setspace}
+\usepackage{hyperref}
+
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage{tikz}
+
+\definecolor{frontColor}{rgb}{0.5,0.5,0.5}
+\definecolor{backColor}{RGB}{200,200,200}
+
+\newcommand{\grade}[1]{%
+
+	\begin{tikzpicture}
+		\clip (1em-.5em,-.5em) rectangle (5em +.5em ,.4em);
+		\foreach \x in {1,2,...,5}{
+			\path[{fill=backColor}] (\x em,0) circle (.35em);
+		}
+		\begin{scope}
+			\clip (1em-.4em,-.35em) rectangle (#1em +.5em ,1em);
+			\foreach \x in {1,2,...,5}{
+				\path[{fill=frontColor}] (\x em,0) circle (.35em);
+			}
+		\end{scope}
+	\end{tikzpicture}%
+}
+
+\geometry{
+	a4paper,
+	left=15mm,
+	right=15mm,
+	top=20mm,
+	bottom=10mm
+}
+
+\begin{document}
+
+\section*{\raggedleft \huge Aron Rocco Petritz}
+
+\vspace{1em}
+\begin{tabular}{l l}
+	\bf{address} & Klosterwiesgase 3/13, 8010 Graz\\
+	\bf{phone} & +43 664 1000777\\
+	\bf{mail} & \href{mailto:aronrocco@posteo.net}{aronrocco@posteo.net}\\
+\end{tabular}
+
+\hfill
+
+\section*{Education}
+
+\normalsize
+\begin{tabular}{l p{0.8\textwidth}}
+	\bf 01/10/20 & \normalfont started bachelor's programmes \textit{Electrical Engineering and Audio Engineering} \normalfont and \textit{Information and Computer Engineering} \\
+	\bf 20/03/25 & \normalfont obtained Bachelor of Science in 'Electrical Engineering and Audio Engineering'
+\end{tabular}
+
+\vspace{1em}
+\hrule
+\vspace{-0.5em}
+\section*{Experience}
+\begin{tabular}{l p{.65\textwidth}}
+	\bf summer 2018 & robotics internship at \textit{University of Klagenfurt}\\
+	\bf since 01/06/2021 & sound and light technician at \textit{Theatercafé Graz}\\
+	\bf 01/07/2022 - 31/03/2023 & internship as digital verification engineer at \textit{Infineon Technologies}\\
+	\bf 01/07/2023 - 30/06/2025 & student representation chair for 'Electrical Engineering and Audio Engineering'
+\end{tabular}
+
+\vspace{1em}
+\hrule
+\vspace{1em}
+
+\begin{minipage}[t]{0.45\textwidth}
+	\section*{Spoken Languages}
+	\begin{tabular}{l | l}
+		\bf{German} & native \\
+		\bf{English} & C2 \\
+		\bf{Serbo-Croatian} & B2 \\
+		\bf{Italian} & A2 \\
+		\bf{Spanish} & A1 \\
+	\end{tabular}
+\end{minipage}
+\vrule
+\hfill
+\begin{minipage}[t]{.45\textwidth}
+	\section*{Programming Languages}
+	\begin{tabular}{l | l}
+		\bf{C++} & \grade{4.5} \\
+		\bf{Python} & \grade{4} \\
+		\bf{C} & \grade{4} \\
+		\bf{Matlab/Octave} & \grade{3.5} \\
+		\bf{SystemVerilog} & \grade{3} \\
+		\bf{LaTeX} & \grade{3} \\
+		\bf{C\#} & \grade{2.5} \\
+		\bf{JavaScript} & \grade{2.5} \\
+	\end{tabular}
+\end{minipage}
+\vspace{1em}
+\hrule
+\vspace{1em}
+\begin{minipage}[t]{.45\textwidth}
+	\section*{Software}
+	\begin{tabular}{l | l}
+		\bf{Studio One} & \grade{5} \\
+		\bf{Reaper} & \grade{4.5} \\
+		\bf{Affinity Software} & \grade{4} \\
+		\bf{Linux Environments} & \grade{4} \\
+		\bf{Pure Data} & \grade{3.5} \\
+		\bf{Blender} & \grade{3} \\
+		\bf{DaVinci Resolve} & \grade{3} \\
+		\bf{Room EQ Wizard} & \grade{3} \\
+		\bf{Godot} & \grade{2.5} \\
+		\bf{SketchUp} & \grade{2.5} \\
+		\bf{SuperCollider} & \grade{1.5}
+	\end{tabular}
+\end{minipage}
+\vrule
+\hfill
+\begin{minipage}[t]{.45\textwidth}
+	\section*{Other Interests}
+	\bf{music composition}\\
+	\bf{photography (analog and digital)}\\
+	\bf{videography}\\
+	\bf{game design}\\
+	\bf{electronics (RPi/ESP32/Arduino)}\\
+	\bf{3D audio}
+\end{minipage}
+\vspace{1em}
+\hrule
+\vspace{0.5em}
+\begin{tabular}{p{0.2\textwidth} p{0.8\textwidth}}
+	\textbf{Latest Project:} & gemuPG - A Generative Music Poly* Grid (using C++ and SDL3)\newline
+	(\href{https://git.iem.at/aronpetritz/gemupg/-/releases}{https://git.iem.at/aronpetritz/gemupg/-/releases})
+\end{tabular}
+
+\end{document}

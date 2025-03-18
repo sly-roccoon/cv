@@ -1,0 +1,19 @@
+File: cv.tex
+Encoding: utf8
+Letters in text: 97
+Letters in headers: 92
+Letters in captions: 0
+Number of headers: 7
+Number of floats/tables/figures: 0
+Number of math inlines: 0
+Number of math displayed: 0
+Subcounts:
+  text+headers+captions (#headers/#floats/#inlines/#displayed)
+  0+16+0 (1/0/0/0) Section: \raggedleft \huge Aron Rocco Petritz
+  0+9+0 (1/0/0/0) Section: Education
+  0+10+0 (1/0/0/0) Section: Experience
+  0+15+0 (1/0/0/0) Section: Spoken Languages
+  0+20+0 (1/0/0/0) Section: Programming Languages
+  0+8+0 (1/0/0/0) Section: Software
+  97+14+0 (1/0/0/0) Section: Other Interests
+
