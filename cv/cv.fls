@@ -1,6 +1,6 @@
-PWD C:\Users\rocco\Documents\cv
+PWD C:\Users\rocco\Documents\cv\cv
 INPUT C:\Users\rocco\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\rocco\Documents\cv\cv.tex
+INPUT c:\Users\rocco\Documents\cv\cv\cv.tex
 OUTPUT cv.log
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\rocco\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

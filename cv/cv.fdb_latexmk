@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1742293196.2838 "c:/Users/rocco/Documents/cv/cv.tex" "cv.pdf" "cv" 1742293198.24524 0
+["pdflatex"] 1742294165.81474 "c:/Users/rocco/Documents/cv/cv/cv.tex" "cv.pdf" "cv" 1742294167.80937 0
   "C:/Users/rocco/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742225861.69109 125067 1730387e8f68b3ddee260eaaa4341ffd ""
   "C:/Users/rocco/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1740185714.71479 12017795 b055050d1d24f2d683489c62b826c2bf ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -128,9 +128,9 @@
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/rocco/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "c:/Users/rocco/Documents/cv/cv.tex" 1742293195.2406 3765 8c9456ce73d53a1d0cb7c771194e83b8 ""
-  "cv.aux" 1742293197.91089 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "cv.out" 1742293197.51972 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "c:/Users/rocco/Documents/cv/cv/cv.tex" 1742294164.74433 3765 8c9456ce73d53a1d0cb7c771194e83b8 ""
+  "cv.aux" 1742294167.47915 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "cv.out" 1742294167.08898 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "cv.aux"
   "cv.log"
